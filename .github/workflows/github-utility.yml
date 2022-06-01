@@ -1,0 +1,26 @@
+name: 'Run GitHub Utility'
+
+on:
+  workflow_dispatch:
+    inputs:
+      instructions:
+        description: 'GitHub Utility instruction set to use'
+        type: choice
+        options:
+          - './test.yml'
+        required: true
+      access_token:
+        description: 'GitHub Api Access Token'
+        type: string
+        required: true
+
+jobs:
+  execute:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: jpshrader/github-utilities@main
+        with:
+          file_type: yaml
+          access_token: ${{ github.event.inputs.access_token }}
+          instructions: ${{ github.event.inputs.instructions }}
