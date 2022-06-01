@@ -1,0 +1,7 @@
+name: 'Test Merge'
+
+instructions:
+  - action: merge_branch
+    repo_name: jpshrader/github-utilities
+    from_branch: main
+    to_branch: test
