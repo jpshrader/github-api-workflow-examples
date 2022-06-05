@@ -18,6 +18,6 @@ instructions:
   - action: list_empty_branches
     repo_name: jpshrader/github-utilities
     include:
-      -test
+      - test
     exclude: 
       - jawn
