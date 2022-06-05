@@ -14,3 +14,10 @@ instructions:
     repo_name: jpshrader/github-utilities
     exclude: 
       - test
+
+  - action: list_empty_branches
+    repo_name: jpshrader/github-utilities
+    include:
+      -test
+    exclude: 
+      - jawn
