@@ -6,4 +6,8 @@ instructions:
 
   - action: list_empty_branches
     repo_name: jpshrader/github-utilities
-    branch_filter: jawn
+    include_filter: jawn
+
+  - action: list_empty_branches
+    repo_name: jpshrader/github-utilities
+    exclude_filter: test
