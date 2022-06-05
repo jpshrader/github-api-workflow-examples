@@ -7,11 +7,3 @@ instructions:
   - action: list_empty_branches
     repo_name: jpshrader/github-utilities
     branch_filter: jawn
-
-  - action: list_empty_branches
-    repo_name: jpshrader/github-utilities
-    branch_filter: test
-
-  - action: list_empty_branches
-    repo_name: jpshrader/github-utilities
-    branch_filter: te
