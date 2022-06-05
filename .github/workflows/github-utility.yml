@@ -8,6 +8,7 @@ on:
         type: choice
         options:
           - './list-empty-branches.yml'
+          - './list-unprotected-branches.yml'
           - './merge-branch.yml'
         required: true
       access_token:
