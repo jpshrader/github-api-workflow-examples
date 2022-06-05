@@ -6,8 +6,11 @@ instructions:
 
   - action: list_unprotected_branches
     repo_name: jpshrader/github-utilities
-    include: jawn
+    include: 
+      - jawn
+      - guy
 
   - action: list_unprotected_branches
     repo_name: jpshrader/github-utilities
-    exclude: test
+    exclude: 
+      - test

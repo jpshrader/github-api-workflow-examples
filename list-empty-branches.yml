@@ -6,8 +6,11 @@ instructions:
 
   - action: list_empty_branches
     repo_name: jpshrader/github-utilities
-    include: jawn
+    include: 
+      - jawn
+      - guy
 
   - action: list_empty_branches
     repo_name: jpshrader/github-utilities
-    exclude: test
+    exclude: 
+      - test
