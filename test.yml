@@ -5,3 +5,8 @@ instructions:
     repo_name: jpshrader/github-utilities
     from_branch: main
     to_branch: test
+    labels:
+      - bug
+      - documentation
+    reviewers:
+      - jpshrader
