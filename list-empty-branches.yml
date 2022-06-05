@@ -3,9 +3,11 @@ name: 'List empty branches'
 instructions:
   - action: list_empty_branches
     repo_name: jpshrader/github-utilities
+    target_branch: main
 
   - action: list_empty_branches
     repo_name: jpshrader/github-utilities
+    target_branch: main
     include: 
       - jawn
       - guy
