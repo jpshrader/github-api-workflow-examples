@@ -18,6 +18,6 @@ instructions:
   - action: list_unprotected_branches
     repo_name: jpshrader/github-utilities
     include:
-      -test
+      - test
     exclude: 
       - jawn
