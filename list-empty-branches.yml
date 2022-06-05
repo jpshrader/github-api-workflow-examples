@@ -1,0 +1,5 @@
+name: 'List empty branches'
+
+instructions:
+  - action: list_empty_branches
+    repo_name: jpshrader/github-utilities
