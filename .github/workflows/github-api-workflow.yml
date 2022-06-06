@@ -1,10 +1,10 @@
-name: 'Run GitHub Utility'
+name: 'Run GitHub Api Workflow'
 
 on:
   workflow_dispatch:
     inputs:
       instructions:
-        description: 'GitHub Utility instruction set to use'
+        description: 'GitHub api workflow instruction set to use'
         type: choice
         options:
           - './list-empty-branches.yml'
