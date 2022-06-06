@@ -2,23 +2,23 @@ name: 'List empty branches'
 
 instructions:
   - action: list_empty_branches
-    repo_name: jpshrader/github-utilities
+    repo_name: jpshrader/github-api-workflows
     target_branch: main
 
   - action: list_empty_branches
-    repo_name: jpshrader/github-utilities
+    repo_name: jpshrader/github-api-workflows
     target_branch: main
     include: 
       - jawn
       - guy
 
   - action: list_empty_branches
-    repo_name: jpshrader/github-utilities
+    repo_name: jpshrader/github-api-workflows
     exclude: 
       - test
 
   - action: list_empty_branches
-    repo_name: jpshrader/github-utilities
+    repo_name: jpshrader/github-api-workflows
     include:
       - test
     exclude: 

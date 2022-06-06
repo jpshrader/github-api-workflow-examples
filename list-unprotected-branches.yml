@@ -2,21 +2,21 @@ name: 'List unprotected branches'
 
 instructions:
   - action: list_unprotected_branches
-    repo_name: jpshrader/github-utilities
+    repo_name: jpshrader/github-api-workflows
 
   - action: list_unprotected_branches
-    repo_name: jpshrader/github-utilities
+    repo_name: jpshrader/github-api-workflows
     include: 
       - jawn
       - guy
 
   - action: list_unprotected_branches
-    repo_name: jpshrader/github-utilities
+    repo_name: jpshrader/github-api-workflows
     exclude: 
       - test
 
   - action: list_unprotected_branches
-    repo_name: jpshrader/github-utilities
+    repo_name: jpshrader/github-api-workflows
     include:
       - test
     exclude: 

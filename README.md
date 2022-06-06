@@ -2,4 +2,4 @@
 
 ### Api Reference
 
-https://github.com/jpshrader/github-utilities#usage
+https://github.com/jpshrader/github-api-workflows#usage

@@ -21,7 +21,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: jpshrader/github-utilities@main
+      - uses: jpshrader/github-api-workflows@main
         with:
           file_type: yaml
           access_token: ${{ github.event.inputs.access_token }}

@@ -2,7 +2,7 @@ name: 'Test Merge'
 
 instructions:
   - action: merge_branch
-    repo_name: jpshrader/github-utilities
+    repo_name: jpshrader/github-api-workflows
     from_branch: main
     to_branch: test
     labels:
