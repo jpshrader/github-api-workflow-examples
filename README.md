@@ -1,4 +1,4 @@
-# GitHub Utilities Examples
+# GitHub Api Workflow Examples
 
 ### Api Reference
 
