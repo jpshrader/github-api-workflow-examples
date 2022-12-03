@@ -23,6 +23,5 @@ jobs:
       - uses: actions/checkout@v3
       - uses: jpshrader/github-api-workflows@main
         with:
-          file_type: yaml
           access_token: ${{ github.event.inputs.access_token }}
           instructions: ${{ github.event.inputs.instructions }}
