@@ -1,6 +1,7 @@
 # GitHub Api Workflow Examples
 
-**Deprecated** See Replacement: https://github.com/jpshrader/github-workflows
+## Deprecated 
+Replacement: https://github.com/jpshrader/github-workflows
 
 ### Api Reference
 
